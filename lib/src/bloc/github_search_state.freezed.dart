@@ -20,24 +20,24 @@ mixin _$GithubSearchState {
   TResult when<TResult extends Object?>({
     required TResult Function() epmty,
     required TResult Function() loading,
-    required TResult Function(List<SearchResultItem> items) success,
     required TResult Function(String error) error,
+    required TResult Function(List<SearchResultItem> items) success,
   }) =>
       throw _privateConstructorUsedError;
   @optionalTypeArgs
   TResult? whenOrNull<TResult extends Object?>({
     TResult? Function()? epmty,
     TResult? Function()? loading,
-    TResult? Function(List<SearchResultItem> items)? success,
     TResult? Function(String error)? error,
+    TResult? Function(List<SearchResultItem> items)? success,
   }) =>
       throw _privateConstructorUsedError;
   @optionalTypeArgs
   TResult maybeWhen<TResult extends Object?>({
     TResult Function()? epmty,
     TResult Function()? loading,
-    TResult Function(List<SearchResultItem> items)? success,
     TResult Function(String error)? error,
+    TResult Function(List<SearchResultItem> items)? success,
     required TResult orElse(),
   }) =>
       throw _privateConstructorUsedError;
@@ -45,24 +45,24 @@ mixin _$GithubSearchState {
   TResult map<TResult extends Object?>({
     required TResult Function(_GithubSearchStateEmpty value) epmty,
     required TResult Function(_GithubSearchStateLoading value) loading,
-    required TResult Function(_GithubSearchStateSuccess value) success,
     required TResult Function(_GithubSearchStateError value) error,
+    required TResult Function(_GithubSearchStateSuccess value) success,
   }) =>
       throw _privateConstructorUsedError;
   @optionalTypeArgs
   TResult? mapOrNull<TResult extends Object?>({
     TResult? Function(_GithubSearchStateEmpty value)? epmty,
     TResult? Function(_GithubSearchStateLoading value)? loading,
-    TResult? Function(_GithubSearchStateSuccess value)? success,
     TResult? Function(_GithubSearchStateError value)? error,
+    TResult? Function(_GithubSearchStateSuccess value)? success,
   }) =>
       throw _privateConstructorUsedError;
   @optionalTypeArgs
   TResult maybeMap<TResult extends Object?>({
     TResult Function(_GithubSearchStateEmpty value)? epmty,
     TResult Function(_GithubSearchStateLoading value)? loading,
-    TResult Function(_GithubSearchStateSuccess value)? success,
     TResult Function(_GithubSearchStateError value)? error,
+    TResult Function(_GithubSearchStateSuccess value)? success,
     required TResult orElse(),
   }) =>
       throw _privateConstructorUsedError;
@@ -127,8 +127,8 @@ class _$_GithubSearchStateEmpty implements _GithubSearchStateEmpty {
   TResult when<TResult extends Object?>({
     required TResult Function() epmty,
     required TResult Function() loading,
-    required TResult Function(List<SearchResultItem> items) success,
     required TResult Function(String error) error,
+    required TResult Function(List<SearchResultItem> items) success,
   }) {
     return epmty();
   }
@@ -138,8 +138,8 @@ class _$_GithubSearchStateEmpty implements _GithubSearchStateEmpty {
   TResult? whenOrNull<TResult extends Object?>({
     TResult? Function()? epmty,
     TResult? Function()? loading,
-    TResult? Function(List<SearchResultItem> items)? success,
     TResult? Function(String error)? error,
+    TResult? Function(List<SearchResultItem> items)? success,
   }) {
     return epmty?.call();
   }
@@ -149,8 +149,8 @@ class _$_GithubSearchStateEmpty implements _GithubSearchStateEmpty {
   TResult maybeWhen<TResult extends Object?>({
     TResult Function()? epmty,
     TResult Function()? loading,
-    TResult Function(List<SearchResultItem> items)? success,
     TResult Function(String error)? error,
+    TResult Function(List<SearchResultItem> items)? success,
     required TResult orElse(),
   }) {
     if (epmty != null) {
@@ -164,8 +164,8 @@ class _$_GithubSearchStateEmpty implements _GithubSearchStateEmpty {
   TResult map<TResult extends Object?>({
     required TResult Function(_GithubSearchStateEmpty value) epmty,
     required TResult Function(_GithubSearchStateLoading value) loading,
-    required TResult Function(_GithubSearchStateSuccess value) success,
     required TResult Function(_GithubSearchStateError value) error,
+    required TResult Function(_GithubSearchStateSuccess value) success,
   }) {
     return epmty(this);
   }
@@ -175,8 +175,8 @@ class _$_GithubSearchStateEmpty implements _GithubSearchStateEmpty {
   TResult? mapOrNull<TResult extends Object?>({
     TResult? Function(_GithubSearchStateEmpty value)? epmty,
     TResult? Function(_GithubSearchStateLoading value)? loading,
-    TResult? Function(_GithubSearchStateSuccess value)? success,
     TResult? Function(_GithubSearchStateError value)? error,
+    TResult? Function(_GithubSearchStateSuccess value)? success,
   }) {
     return epmty?.call(this);
   }
@@ -186,8 +186,8 @@ class _$_GithubSearchStateEmpty implements _GithubSearchStateEmpty {
   TResult maybeMap<TResult extends Object?>({
     TResult Function(_GithubSearchStateEmpty value)? epmty,
     TResult Function(_GithubSearchStateLoading value)? loading,
-    TResult Function(_GithubSearchStateSuccess value)? success,
     TResult Function(_GithubSearchStateError value)? error,
+    TResult Function(_GithubSearchStateSuccess value)? success,
     required TResult orElse(),
   }) {
     if (epmty != null) {
@@ -243,8 +243,8 @@ class _$_GithubSearchStateLoading implements _GithubSearchStateLoading {
   TResult when<TResult extends Object?>({
     required TResult Function() epmty,
     required TResult Function() loading,
-    required TResult Function(List<SearchResultItem> items) success,
     required TResult Function(String error) error,
+    required TResult Function(List<SearchResultItem> items) success,
   }) {
     return loading();
   }
@@ -254,8 +254,8 @@ class _$_GithubSearchStateLoading implements _GithubSearchStateLoading {
   TResult? whenOrNull<TResult extends Object?>({
     TResult? Function()? epmty,
     TResult? Function()? loading,
-    TResult? Function(List<SearchResultItem> items)? success,
     TResult? Function(String error)? error,
+    TResult? Function(List<SearchResultItem> items)? success,
   }) {
     return loading?.call();
   }
@@ -265,8 +265,8 @@ class _$_GithubSearchStateLoading implements _GithubSearchStateLoading {
   TResult maybeWhen<TResult extends Object?>({
     TResult Function()? epmty,
     TResult Function()? loading,
-    TResult Function(List<SearchResultItem> items)? success,
     TResult Function(String error)? error,
+    TResult Function(List<SearchResultItem> items)? success,
     required TResult orElse(),
   }) {
     if (loading != null) {
@@ -280,8 +280,8 @@ class _$_GithubSearchStateLoading implements _GithubSearchStateLoading {
   TResult map<TResult extends Object?>({
     required TResult Function(_GithubSearchStateEmpty value) epmty,
     required TResult Function(_GithubSearchStateLoading value) loading,
-    required TResult Function(_GithubSearchStateSuccess value) success,
     required TResult Function(_GithubSearchStateError value) error,
+    required TResult Function(_GithubSearchStateSuccess value) success,
   }) {
     return loading(this);
   }
@@ -291,8 +291,8 @@ class _$_GithubSearchStateLoading implements _GithubSearchStateLoading {
   TResult? mapOrNull<TResult extends Object?>({
     TResult? Function(_GithubSearchStateEmpty value)? epmty,
     TResult? Function(_GithubSearchStateLoading value)? loading,
-    TResult? Function(_GithubSearchStateSuccess value)? success,
     TResult? Function(_GithubSearchStateError value)? error,
+    TResult? Function(_GithubSearchStateSuccess value)? success,
   }) {
     return loading?.call(this);
   }
@@ -302,8 +302,8 @@ class _$_GithubSearchStateLoading implements _GithubSearchStateLoading {
   TResult maybeMap<TResult extends Object?>({
     TResult Function(_GithubSearchStateEmpty value)? epmty,
     TResult Function(_GithubSearchStateLoading value)? loading,
-    TResult Function(_GithubSearchStateSuccess value)? success,
     TResult Function(_GithubSearchStateError value)? error,
+    TResult Function(_GithubSearchStateSuccess value)? success,
     required TResult orElse(),
   }) {
     if (loading != null) {
@@ -315,6 +315,153 @@ class _$_GithubSearchStateLoading implements _GithubSearchStateLoading {
 
 abstract class _GithubSearchStateLoading implements GithubSearchState {
   const factory _GithubSearchStateLoading() = _$_GithubSearchStateLoading;
+}
+
+/// @nodoc
+abstract class _$$_GithubSearchStateErrorCopyWith<$Res> {
+  factory _$$_GithubSearchStateErrorCopyWith(_$_GithubSearchStateError value,
+          $Res Function(_$_GithubSearchStateError) then) =
+      __$$_GithubSearchStateErrorCopyWithImpl<$Res>;
+  @useResult
+  $Res call({String error});
+}
+
+/// @nodoc
+class __$$_GithubSearchStateErrorCopyWithImpl<$Res>
+    extends _$GithubSearchStateCopyWithImpl<$Res, _$_GithubSearchStateError>
+    implements _$$_GithubSearchStateErrorCopyWith<$Res> {
+  __$$_GithubSearchStateErrorCopyWithImpl(_$_GithubSearchStateError _value,
+      $Res Function(_$_GithubSearchStateError) _then)
+      : super(_value, _then);
+
+  @pragma('vm:prefer-inline')
+  @override
+  $Res call({
+    Object? error = null,
+  }) {
+    return _then(_$_GithubSearchStateError(
+      error: null == error
+          ? _value.error
+          : error // ignore: cast_nullable_to_non_nullable
+              as String,
+    ));
+  }
+}
+
+/// @nodoc
+
+class _$_GithubSearchStateError implements _GithubSearchStateError {
+  const _$_GithubSearchStateError({required this.error});
+
+  @override
+  final String error;
+
+  @override
+  String toString() {
+    return 'GithubSearchState.error(error: $error)';
+  }
+
+  @override
+  bool operator ==(dynamic other) {
+    return identical(this, other) ||
+        (other.runtimeType == runtimeType &&
+            other is _$_GithubSearchStateError &&
+            (identical(other.error, error) || other.error == error));
+  }
+
+  @override
+  int get hashCode => Object.hash(runtimeType, error);
+
+  @JsonKey(ignore: true)
+  @override
+  @pragma('vm:prefer-inline')
+  _$$_GithubSearchStateErrorCopyWith<_$_GithubSearchStateError> get copyWith =>
+      __$$_GithubSearchStateErrorCopyWithImpl<_$_GithubSearchStateError>(
+          this, _$identity);
+
+  @override
+  @optionalTypeArgs
+  TResult when<TResult extends Object?>({
+    required TResult Function() epmty,
+    required TResult Function() loading,
+    required TResult Function(String error) error,
+    required TResult Function(List<SearchResultItem> items) success,
+  }) {
+    return error(this.error);
+  }
+
+  @override
+  @optionalTypeArgs
+  TResult? whenOrNull<TResult extends Object?>({
+    TResult? Function()? epmty,
+    TResult? Function()? loading,
+    TResult? Function(String error)? error,
+    TResult? Function(List<SearchResultItem> items)? success,
+  }) {
+    return error?.call(this.error);
+  }
+
+  @override
+  @optionalTypeArgs
+  TResult maybeWhen<TResult extends Object?>({
+    TResult Function()? epmty,
+    TResult Function()? loading,
+    TResult Function(String error)? error,
+    TResult Function(List<SearchResultItem> items)? success,
+    required TResult orElse(),
+  }) {
+    if (error != null) {
+      return error(this.error);
+    }
+    return orElse();
+  }
+
+  @override
+  @optionalTypeArgs
+  TResult map<TResult extends Object?>({
+    required TResult Function(_GithubSearchStateEmpty value) epmty,
+    required TResult Function(_GithubSearchStateLoading value) loading,
+    required TResult Function(_GithubSearchStateError value) error,
+    required TResult Function(_GithubSearchStateSuccess value) success,
+  }) {
+    return error(this);
+  }
+
+  @override
+  @optionalTypeArgs
+  TResult? mapOrNull<TResult extends Object?>({
+    TResult? Function(_GithubSearchStateEmpty value)? epmty,
+    TResult? Function(_GithubSearchStateLoading value)? loading,
+    TResult? Function(_GithubSearchStateError value)? error,
+    TResult? Function(_GithubSearchStateSuccess value)? success,
+  }) {
+    return error?.call(this);
+  }
+
+  @override
+  @optionalTypeArgs
+  TResult maybeMap<TResult extends Object?>({
+    TResult Function(_GithubSearchStateEmpty value)? epmty,
+    TResult Function(_GithubSearchStateLoading value)? loading,
+    TResult Function(_GithubSearchStateError value)? error,
+    TResult Function(_GithubSearchStateSuccess value)? success,
+    required TResult orElse(),
+  }) {
+    if (error != null) {
+      return error(this);
+    }
+    return orElse();
+  }
+}
+
+abstract class _GithubSearchStateError implements GithubSearchState {
+  const factory _GithubSearchStateError({required final String error}) =
+      _$_GithubSearchStateError;
+
+  String get error;
+  @JsonKey(ignore: true)
+  _$$_GithubSearchStateErrorCopyWith<_$_GithubSearchStateError> get copyWith =>
+      throw _privateConstructorUsedError;
 }
 
 /// @nodoc
@@ -393,8 +540,8 @@ class _$_GithubSearchStateSuccess implements _GithubSearchStateSuccess {
   TResult when<TResult extends Object?>({
     required TResult Function() epmty,
     required TResult Function() loading,
-    required TResult Function(List<SearchResultItem> items) success,
     required TResult Function(String error) error,
+    required TResult Function(List<SearchResultItem> items) success,
   }) {
     return success(items);
   }
@@ -404,8 +551,8 @@ class _$_GithubSearchStateSuccess implements _GithubSearchStateSuccess {
   TResult? whenOrNull<TResult extends Object?>({
     TResult? Function()? epmty,
     TResult? Function()? loading,
-    TResult? Function(List<SearchResultItem> items)? success,
     TResult? Function(String error)? error,
+    TResult? Function(List<SearchResultItem> items)? success,
   }) {
     return success?.call(items);
   }
@@ -415,8 +562,8 @@ class _$_GithubSearchStateSuccess implements _GithubSearchStateSuccess {
   TResult maybeWhen<TResult extends Object?>({
     TResult Function()? epmty,
     TResult Function()? loading,
-    TResult Function(List<SearchResultItem> items)? success,
     TResult Function(String error)? error,
+    TResult Function(List<SearchResultItem> items)? success,
     required TResult orElse(),
   }) {
     if (success != null) {
@@ -430,8 +577,8 @@ class _$_GithubSearchStateSuccess implements _GithubSearchStateSuccess {
   TResult map<TResult extends Object?>({
     required TResult Function(_GithubSearchStateEmpty value) epmty,
     required TResult Function(_GithubSearchStateLoading value) loading,
-    required TResult Function(_GithubSearchStateSuccess value) success,
     required TResult Function(_GithubSearchStateError value) error,
+    required TResult Function(_GithubSearchStateSuccess value) success,
   }) {
     return success(this);
   }
@@ -441,8 +588,8 @@ class _$_GithubSearchStateSuccess implements _GithubSearchStateSuccess {
   TResult? mapOrNull<TResult extends Object?>({
     TResult? Function(_GithubSearchStateEmpty value)? epmty,
     TResult? Function(_GithubSearchStateLoading value)? loading,
-    TResult? Function(_GithubSearchStateSuccess value)? success,
     TResult? Function(_GithubSearchStateError value)? error,
+    TResult? Function(_GithubSearchStateSuccess value)? success,
   }) {
     return success?.call(this);
   }
@@ -452,8 +599,8 @@ class _$_GithubSearchStateSuccess implements _GithubSearchStateSuccess {
   TResult maybeMap<TResult extends Object?>({
     TResult Function(_GithubSearchStateEmpty value)? epmty,
     TResult Function(_GithubSearchStateLoading value)? loading,
-    TResult Function(_GithubSearchStateSuccess value)? success,
     TResult Function(_GithubSearchStateError value)? error,
+    TResult Function(_GithubSearchStateSuccess value)? success,
     required TResult orElse(),
   }) {
     if (success != null) {
@@ -472,151 +619,4 @@ abstract class _GithubSearchStateSuccess implements GithubSearchState {
   @JsonKey(ignore: true)
   _$$_GithubSearchStateSuccessCopyWith<_$_GithubSearchStateSuccess>
       get copyWith => throw _privateConstructorUsedError;
-}
-
-/// @nodoc
-abstract class _$$_GithubSearchStateErrorCopyWith<$Res> {
-  factory _$$_GithubSearchStateErrorCopyWith(_$_GithubSearchStateError value,
-          $Res Function(_$_GithubSearchStateError) then) =
-      __$$_GithubSearchStateErrorCopyWithImpl<$Res>;
-  @useResult
-  $Res call({String error});
-}
-
-/// @nodoc
-class __$$_GithubSearchStateErrorCopyWithImpl<$Res>
-    extends _$GithubSearchStateCopyWithImpl<$Res, _$_GithubSearchStateError>
-    implements _$$_GithubSearchStateErrorCopyWith<$Res> {
-  __$$_GithubSearchStateErrorCopyWithImpl(_$_GithubSearchStateError _value,
-      $Res Function(_$_GithubSearchStateError) _then)
-      : super(_value, _then);
-
-  @pragma('vm:prefer-inline')
-  @override
-  $Res call({
-    Object? error = null,
-  }) {
-    return _then(_$_GithubSearchStateError(
-      error: null == error
-          ? _value.error
-          : error // ignore: cast_nullable_to_non_nullable
-              as String,
-    ));
-  }
-}
-
-/// @nodoc
-
-class _$_GithubSearchStateError implements _GithubSearchStateError {
-  const _$_GithubSearchStateError({required this.error});
-
-  @override
-  final String error;
-
-  @override
-  String toString() {
-    return 'GithubSearchState.error(error: $error)';
-  }
-
-  @override
-  bool operator ==(dynamic other) {
-    return identical(this, other) ||
-        (other.runtimeType == runtimeType &&
-            other is _$_GithubSearchStateError &&
-            (identical(other.error, error) || other.error == error));
-  }
-
-  @override
-  int get hashCode => Object.hash(runtimeType, error);
-
-  @JsonKey(ignore: true)
-  @override
-  @pragma('vm:prefer-inline')
-  _$$_GithubSearchStateErrorCopyWith<_$_GithubSearchStateError> get copyWith =>
-      __$$_GithubSearchStateErrorCopyWithImpl<_$_GithubSearchStateError>(
-          this, _$identity);
-
-  @override
-  @optionalTypeArgs
-  TResult when<TResult extends Object?>({
-    required TResult Function() epmty,
-    required TResult Function() loading,
-    required TResult Function(List<SearchResultItem> items) success,
-    required TResult Function(String error) error,
-  }) {
-    return error(this.error);
-  }
-
-  @override
-  @optionalTypeArgs
-  TResult? whenOrNull<TResult extends Object?>({
-    TResult? Function()? epmty,
-    TResult? Function()? loading,
-    TResult? Function(List<SearchResultItem> items)? success,
-    TResult? Function(String error)? error,
-  }) {
-    return error?.call(this.error);
-  }
-
-  @override
-  @optionalTypeArgs
-  TResult maybeWhen<TResult extends Object?>({
-    TResult Function()? epmty,
-    TResult Function()? loading,
-    TResult Function(List<SearchResultItem> items)? success,
-    TResult Function(String error)? error,
-    required TResult orElse(),
-  }) {
-    if (error != null) {
-      return error(this.error);
-    }
-    return orElse();
-  }
-
-  @override
-  @optionalTypeArgs
-  TResult map<TResult extends Object?>({
-    required TResult Function(_GithubSearchStateEmpty value) epmty,
-    required TResult Function(_GithubSearchStateLoading value) loading,
-    required TResult Function(_GithubSearchStateSuccess value) success,
-    required TResult Function(_GithubSearchStateError value) error,
-  }) {
-    return error(this);
-  }
-
-  @override
-  @optionalTypeArgs
-  TResult? mapOrNull<TResult extends Object?>({
-    TResult? Function(_GithubSearchStateEmpty value)? epmty,
-    TResult? Function(_GithubSearchStateLoading value)? loading,
-    TResult? Function(_GithubSearchStateSuccess value)? success,
-    TResult? Function(_GithubSearchStateError value)? error,
-  }) {
-    return error?.call(this);
-  }
-
-  @override
-  @optionalTypeArgs
-  TResult maybeMap<TResult extends Object?>({
-    TResult Function(_GithubSearchStateEmpty value)? epmty,
-    TResult Function(_GithubSearchStateLoading value)? loading,
-    TResult Function(_GithubSearchStateSuccess value)? success,
-    TResult Function(_GithubSearchStateError value)? error,
-    required TResult orElse(),
-  }) {
-    if (error != null) {
-      return error(this);
-    }
-    return orElse();
-  }
-}
-
-abstract class _GithubSearchStateError implements GithubSearchState {
-  const factory _GithubSearchStateError({required final String error}) =
-      _$_GithubSearchStateError;
-
-  String get error;
-  @JsonKey(ignore: true)
-  _$$_GithubSearchStateErrorCopyWith<_$_GithubSearchStateError> get copyWith =>
-      throw _privateConstructorUsedError;
 }

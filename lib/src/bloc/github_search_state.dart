@@ -7,8 +7,6 @@ part 'github_search_state.freezed.dart';
 class GithubSearchState with _$GithubSearchState {
   const factory GithubSearchState.epmty() = _GithubSearchStateEmpty;
   const factory GithubSearchState.loading() = _GithubSearchStateLoading;
-  const factory GithubSearchState.success(
-      {required List<SearchResultItem> items}) = _GithubSearchStateSuccess;
-  const factory GithubSearchState.error({required String error}) =
-      _GithubSearchStateError;
+  const factory GithubSearchState.error({required String error}) = _GithubSearchStateError;
+  const factory GithubSearchState.success({required List<SearchResultItem> items}) = _GithubSearchStateSuccess;
 }

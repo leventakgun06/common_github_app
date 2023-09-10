@@ -1,5 +1,5 @@
-
 part of 'github_search_bloc.dart';
+
 abstract class GithubSearchEvent extends Equatable {
   const GithubSearchEvent();
 }
@@ -7,7 +7,8 @@ abstract class GithubSearchEvent extends Equatable {
 class TextChangedEvent extends GithubSearchEvent {
   final String text;
 
-  TextChangedEvent({required this.text});
+  const TextChangedEvent({required this.text});
+
   @override
   List<Object?> get props => [text];
 }
